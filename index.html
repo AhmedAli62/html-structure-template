@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VersaStyle - Cool & Stylish</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.1/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+    <header class="bg-gray-800 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-white">VersaStyle</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="text-gray-400 hover:text-white">Home</a></li>
+                    <li><a href="#about" class="text-gray-400 hover:text-white">About</a></li>
+                    <li><a href="#services" class="text-gray-400 hover:text-white">Services</a></li>
+                    <li><a href="#contact" class="text-gray-400 hover:text-white">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-10">
+        <section id="home" class="text-center mb-12">
+            <h2 class="text-4xl font-bold mb-4">Welcome to VersaStyle</h2>
+            <p class="text-lg text-gray-400">Your one-stop destination for trendy bags and clothing.</p>
+        </section>
+
+        <section id="about" class="mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <img src="data:image/jpeg;base64,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" alt="About Us" class="w-full h-auto rounded-lg shadow-lg">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">About Us</h2>
+                    <p class="text-gray-400">At VersaStyle, we believe in fashion that speaks volumes about your personality. We offer a wide range of products that blend style with functionality.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="mb-12 text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-800 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Custom Bags</h3>
+                    <p class="text-gray-400">Tailor-made bags to suit your style and needs.</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Trendy Clothing</h3>
+                    <p class="text-gray-400">Fashionable clothing that makes a statement.</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Personalized Styling</h3>
+                    <p class="text-gray-400">Get personalized styling advice from our experts.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+            <p class="text-gray-400">Have questions? We’d love to hear from you!</p>
+            <a href="mailto:info@versastyle.com" class="mt-4 inline-block px-8 py-3 bg-blue-600 text-white font-bold rounded-full shadow-lg hover:bg-blue-500 transition duration-300">Get in Touch</a>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-400">&copy; 2024 VersaStyle. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</body>
+</html>
